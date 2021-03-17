@@ -1,89 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://kit.fontawesome.com/db3addd73e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">`
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
   <html lang="fr">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!--css-->
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Mon petit graphisme</title>
-
 </head>
-<body>
-<!--header-->
-  <header>
-    <img src="images/logo_long.png"/>
-    <!--nav-->
-      <ul>
-        <li><a href="#" title="Accueil" >Accueil</a></li>
-        <li> <a href="#" title="Contact">Contact</a> </li>
-      </ul>
-  </header> 
-<!--corp du site-->
-<!--section 1-->
-  <div>
-    <img src="Images/backgroung_image.jpg" width="100%"/>
-    <img src="Images/logo_long.png"/>
-    <span><h1>Agence de graphisme</strong></h1></span>
-  </div>
-<!--section 2-->
-  <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs</p>
+  <body>  
+    <div id="container">
+      <header>
+        <nav>
+          <img src="images/logo_long.png"/>
+          <ul>
+            <li> <div id="accueil"> Accueil</div></li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header> 
 
-<!--section 3-->
-  <article>
-    <img src="Images/graphic-design.png"/>
-    <div>
-      <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont serez fiers.</p>
+      <main>
+        <div id="banniere">
+          <div id="banniereimg">
+            <img id="banniereimg" src="Images/backgroung_image.jpg"/>
+          </div>
+            <div id="banniereContent">
+              <img id="banniereContentLogo" src="Images/logo_long.png"/>
+             <h1>Agence de graphisme</h1>
+          </div>
+        </div>
+
+        <section id="presentation">
+          <div id="presentationintroduction">
+            <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs </p>
+          </div>
+          <section id="presentationskills">
+            <article class="graphisme">
+                <img src="Images/graphic-design.png"/>  
+                <h2>graphisme</h2>
+                <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont serez fiers.</p>
+            </article>
+            <article class="strategie">
+              <img src="Images/strategie.png"/>
+                <h2>stratégie</h2>
+                <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
+            </article>
+            <article class="illustrations" >
+              <img src="Images/illustrations.png"/>
+              <h2>illustrations</h2>
+              <p>Nos graphistes vous proposerons des illustrations 100% originales</p>
+            </article>
+          </section>
+          <section id="citation" >
+            <p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complétement la carte de mon restaurant."</p>
+            <p id="auteur">Amandine, restauratrice</p>
+          </section>
+        </section>
+      </main>
+
+
+      <footer>
+        <div id="copyright" >
+          <h2>Mon petit graphisme - Agence de graphisme basée à Paris </h2>
+        </div>
+        <div id="socialnetwork">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+        </div> 
+        <div id="footercontent">
+           <div id="groupeinfos1">
+              <h3>Accès rapides</h3>
+                <ul>
+                  <li>accueil</li>
+                  <li>Contact</li>
+                </ul>
+            </div>
+            <div id="groupeinfos2" >
+              <h3>A propos</h3>
+                <ul>
+                  <li>Données personnelles</li>
+                  <li>Mentions légales</li>
+                  <li>Cookies</li>
+                </ul>
+            </div>
+            <div id="groupeinfos3" >
+              <h3>Coordonnées</h3>
+                <p>10 Quai de la Charente <br>75019 Paris <br>01 23 45 67 89</p>
+            </div>
+        </div>
+      </footer>
     </div>
-  </article>
-
-  <figure>
-    <img src="Images/strategie.png"/>
-    <figcaption>
-      <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
-    </figcaption>
-  </figure>
-  <img src="Images/illustrations.png"/>
-  <p>Nos graphistes vous proposerons des illustrations 100% originales</p>
-
-<!--section 4-->
-  <blockquote>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complétement la carte de mon restaurant"</blockquote>
-  <p>Amandine, restauratrice</p>
-
-<!--footer-->
-<footer>
-
-  <section>
-    <p>Mon petit graphisme - Agence de graphisme basée à Paris </p>
-    <img src="Images/twitter-brands.svg" width="75" height="37,5"/>
-    <img src="Images/facebook-f-brands.svg" width="75" height="37,5"/>
-    <img src="Images/instagram-brands.svg" width="75" height="37,5"/>
-  </section>
-
-  <section>
-  <h3>Accès rapides</h3>
-    <ul>
-      <li>accueil</li>
-      <li>Contact</li>
-    </ul>
-  </section>
-
-  <section>
-  <h3>A propos</h3>
-    <ul>
-      <li>Données personnelles</li>
-      <li>Mentions légales</li>
-      <li>Cookies</li>
-    </ul>
-  </section>
-
-  <section>
-    <h3>Coordonnées</h3>
-    <address>10 Quai de la Charente <br>75019 Paris <br>01 23 45 67 89</p></address>
-  </section>
-
-</footer>
-</body>
+  </body>
 </html>
